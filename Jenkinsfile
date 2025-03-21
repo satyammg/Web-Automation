@@ -4,7 +4,7 @@ pipeline{
     tool {nodejs "nodejs18"}
 
     stages{
-        stages('Dependencies') {
+        stage('Dependencies') {
             steps {
                 sh 'npm install'
             }
