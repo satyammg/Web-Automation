@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        NODEJS_HOME = tool 'NodeJS_18' // Use the configured NodeJS version
+        NODEJS_HOME = tool 'NodeJS 18.20.7' // Use the configured NodeJS version
         PATH = "${NODEJS_HOME}/bin:${env.PATH}"
     }
 
