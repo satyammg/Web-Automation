@@ -11,5 +11,8 @@
   "description": "",
   "dependencies": {
     "cypress": "^14.2.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2"
   }
 }
