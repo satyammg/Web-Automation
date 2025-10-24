@@ -14,6 +14,5 @@ describe('template spec', () => {
     cy.get('.zDPmFV').type('bed{enter}');
     cy.get('.MJG8Up').click();
     cy.get('.zDPmFV').click();
-    /* ==== End Cypress Studio ==== */
   })
 })
